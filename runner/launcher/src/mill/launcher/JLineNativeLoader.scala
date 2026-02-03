@@ -92,7 +92,7 @@ object JLineNativeLoader {
   @volatile private var initialized = false
 
   def initJLineNative(): Unit = {
-    if (!initialized) doInitJLineNative()
+    ()
   }
 
   private def doInitJLineNative(): Unit = synchronized {
