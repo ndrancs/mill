@@ -110,6 +110,7 @@ object Deps {
   val castor = mvn"com.lihaoyi::castor:0.3.0"
   val fastparse = mvn"com.lihaoyi::fastparse:3.1.1"
   val flywayCore = mvn"org.flywaydb:flyway-core:11.8.2"
+  val jibCore = mvn"com.google.cloud.tools:jib-core:0.27.2"
   val graphvizJava = Seq(
     mvn"guru.nidi:graphviz-java-min-deps:0.18.1",
     mvn"org.webjars.npm:viz.js-graphviz-java:2.1.3",
@@ -189,6 +190,10 @@ object Deps {
   val semanticDbShared = mvn"org.scalameta:semanticdb-shared_2.13:${semanticDBscala.version}"
   val sourcecode = mvn"com.lihaoyi::sourcecode:0.4.4"
   val springBootTools = mvn"org.springframework.boot:spring-boot-loader-tools:3.5.5"
+  val quarkusAppModel = mvn"io.quarkus:quarkus-bootstrap-app-model:3.31.1"
+  val quarkusBootstrapCore = mvn"io.quarkus:quarkus-bootstrap-core:3.31.1"
+  val quarkusBootstrapMavenResolver = mvn"io.quarkus:quarkus-bootstrap-maven-resolver:3.31.1"
+  val quarkusCoreDeployment = mvn"io.quarkus:quarkus-core-deployment:3.31.1"
   val upickle = mvn"com.lihaoyi::upickle:4.4.2"
   val upickleNamedTuples = mvn"com.lihaoyi::upickle-implicits-named-tuples:${upickle.version}"
   // Using "native-terminal-no-ffm" rather than just "native-terminal", as the GraalVM releases currently
