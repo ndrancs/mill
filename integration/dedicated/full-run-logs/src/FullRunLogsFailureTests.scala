@@ -47,7 +47,7 @@ object FullRunLogsFailureTests extends UtestIntegrationTestSuite {
           "(B)<digits>](X) '}' expected but eof found.",
           "(B)<digits>](X) ",
           "(B)<digits>](X) [(R)error(X)] (R)src/foo/Foo.scala(X):(R)2(X):(R)54(X)",
-          "(B)<digits>](X) (Y)class(X) (M)Bar(X) { (B)/*comment*/(X) (Y)def(X) (C)bar(X) = { (Y)val(X) (C)x(X): (M)String(X) =  \"omg",
+          "(B)<digits>](X) (Y)class(X) (C)Bar(X) { (B)/*comment*/(X) (Y)def(X) (C)bar(X) = { (Y)val(X) (C)x(X): (G)String(X) =  \"omg",
           "(B)<digits>](X)                                                      (R)^(X)",
           "(B)<digits>](X) unclosed string literal",
           "(B)<digits>](X) ",
@@ -104,7 +104,7 @@ object FullRunLogsFailureTests extends UtestIntegrationTestSuite {
           "(Y)mill jar(X)",
           "(B)<digits>] compile(X) compiling 1 Scala source and 1 Java source to out/compile.dest/classes ...",
           "(B)<digits>](X) [(R)error(X)] (R)src/foo/Foo.scala(X):(R)2(X):(R)54(X)",
-          "(B)<digits>](X) (Y)class(X) (M)Bar(X) { (B)/*comment*/(X) (Y)def(X) (C)bar(X) = { (Y)val(X) (C)x(X): java.lang.(Y)Strig(X) =  (G)\"omg\"(X)}}",
+          "(B)<digits>](X) (Y)class(X) (C)Bar(X) { (B)/*comment*/(X) (Y)def(X) (C)bar(X) = { (Y)val(X) (C)x(X): java.lang.(G)Strig(X) =  (G)\"omg\"(X)}}",
           "(B)<digits>](X)                                                      (R)^^^^^(X)",
           "(B)<digits>](X) type Strig is not a member of java.lang - did you mean lang.String?",
           "(B)<digits>](X) ",
@@ -135,7 +135,7 @@ object FullRunLogsFailureTests extends UtestIntegrationTestSuite {
           "build.mill-<digits>] ",
           "build.mill-<digits>] [error] one error found",
           "build.mill-<digits>] [error] compile task failed",
-          ".../..., 1 FAILED] mill jar",
+          ".../...+, 1 FAILED] mill jar",
           "build.mill-<digits>] [error] compile Compilation failed"
         )
       )
